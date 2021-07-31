@@ -3,6 +3,8 @@ frequency meter, frequency counter FPGA using four 7 segments displays in behavi
 
 
 O código tem always do tipo sequencial, tem always do tipo combinacional, e uma task.
+* Lembrando que cada segmento do display é ativo em nível baixo.
+
 
 Preciso ainda conferir se declarei todas as variáveis que usai no código (nos always).
 
