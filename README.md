@@ -1,15 +1,10 @@
 # frequency-meter-fpga-four-7-segments-display
-frequency meter, frequency counter FPGA using four 7 segments displays in behavioral language verilog HDL
+frequency meter, frequency counter FPGA with four 7 segments displays in behavioral language verilog HDL
 
 
 
 O código tem always do tipo sequencial, tem always do tipo combinacional, e uma task.
 * Lembrando que cada segmento do display é ativo em nível baixo.
-
-Parece que agora só precisa separa os always em arquivos separados, para se ter um arquivo top-level bem definido (que é aquele que instancia os arquivos separados).
-
-Observações do código estão lá no final deste Readme (depois do código-fonte).
-
 
 
 
